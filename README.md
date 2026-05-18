@@ -35,8 +35,10 @@ The addon config is `config/puffish_power_scale-common.toml`.
 Default category:
 
 ```text
-puffish_skills:wmf_arts
+puffish_skills:combat
 ```
+
+This matches the Combat tree from the Pufferfish's Skills default skill-tree pack. Add more category IDs, or leave the list empty to use the highest experience level from any available Puffish Skills category.
 
 ## Requirements
 

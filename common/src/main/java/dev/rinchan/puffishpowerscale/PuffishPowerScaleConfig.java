@@ -22,7 +22,7 @@ public final class PuffishPowerScaleConfig {
                 "The highest experience level among these categories is returned.",
                 "Leave empty to scan all Puffish Skills categories that have experience."
             )
-            .defineListAllowEmpty("categoryIds", List.of("puffish_skills:wmf_arts"), () -> "puffish_skills:wmf_arts", value -> value instanceof String string && !string.isBlank());
+            .defineListAllowEmpty("categoryIds", List.of("puffish_skills:combat"), () -> "puffish_skills:combat", value -> value instanceof String string && !string.isBlank());
 
         SPEC = builder.build();
     }
